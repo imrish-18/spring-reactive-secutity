@@ -20,7 +20,6 @@ import com.spring.security.*;
 @EnableWebFlux
 @ComponentScan(basePackages = "com.spring.securtiy")
 public class EmployeeRouter {
-	
 
 	/**
 	 * Gets the all.

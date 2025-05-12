@@ -12,7 +12,7 @@ import org.springframework.web.reactive.config.EnableWebFlux;
  */
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan
+@ComponentScan({"com.spring.security"," com.helper"})
 @EnableWebFlux
 public class SpringSecurityApplication {
 
